@@ -14,6 +14,7 @@ const ProductCard = ({id, title, category, glass, desc, instruction, image}) => 
           margin: "auto",
           borderRadius: "5px",
           backgroundColor: "burlywood",
+          boxShadow:"1px 1px 2px rgba(0, 0, 0, 0.5)",
         }}
       >
         <div style={{ width: "20rem", height: "20rem", margin: "auto" }}>
@@ -21,7 +22,7 @@ const ProductCard = ({id, title, category, glass, desc, instruction, image}) => 
         </div>
         <div style={{ padding: "0 1rem" }}>
           <h2>{title}</h2>
-          <p>{category}</p>
+          <p style={{fontSize: "1.2rem"}}>{category}</p>
           <p>{glass}</p>
           <p>
             {fullString === false ? truncateString(instruction) : instruction}
