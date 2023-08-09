@@ -1,4 +1,4 @@
-# Shares-app
+# Drinks-API
 Fetching a drink API using Axios library.
 
 ## Prequisite
